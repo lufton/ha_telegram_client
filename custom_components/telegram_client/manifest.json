@@ -5,8 +5,8 @@
   "config_flow": true,
   "documentation": "https://github.com/lufton/ha_telegram_client/",
   "integration_type": "service",
-  "issue_tracker": "https://github.com/lufton/ha_telegram_client/issues",
   "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/lufton/ha_telegram_client/issues",
   "requirements": ["Telethon==1.36.0"],
   "version": "1.0.0"
 }

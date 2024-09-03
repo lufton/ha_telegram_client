@@ -100,6 +100,7 @@ Edits text of a previously sent message to user, group, channel or bot.
 
 ### Service `telegram_client.delete_messages`
 
+Deletes previously sent messages to user, group, channel or bot.
 | Service data attribute | Optional | Description                                                                                                                                                                                                            |
 | ---------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | `config_entry_id`      | no       | Config entry ID to run service on.<br/><br/>*Defaults to first one.*                                                                                                                                                   |
