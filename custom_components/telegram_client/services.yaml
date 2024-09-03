@@ -1,6 +1,7 @@
 # Describes the format for available Telegram client services
 
 send_messages:
+  name: Send message
   fields:
     config_entry_id:
       selector:

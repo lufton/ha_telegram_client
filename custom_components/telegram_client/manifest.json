@@ -1,12 +1,12 @@
 {
   "domain": "telegram_client",
   "name": "Telegram client",
-  "integration_type": "service",
-  "version": "1.0.0",
   "codeowners": ["@lufton"],
   "config_flow": true,
   "documentation": "https://github.com/lufton/ha_telegram_client/",
+  "integration_type": "service",
   "issue_tracker": "https://github.com/lufton/ha_telegram_client/issues",
   "iot_class": "cloud_polling",
-  "requirements": ["Telethon==1.36.0"]
+  "requirements": ["Telethon==1.36.0"],
+  "version": "1.0.0"
 }
