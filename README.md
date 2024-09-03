@@ -1,3 +1,4 @@
+# Telegram client integration
 The `telegram_client` integration uses [Telethon library](https://docs.telethon.dev/) to connect Home Assistant with your [Telegram](https://telegram.org/) account in order to send, edit and delete messages and also capture and propagate events to event bus.
 
 ## Two client types
