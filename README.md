@@ -1,6 +1,19 @@
 # Telegram client integration
 The `telegram_client` integration uses [Telethon library](https://docs.telethon.dev/) to connect Home Assistant with your [Telegram](https://telegram.org/) account in order to send, edit and delete messages and also capture and propagate events to event bus.
 
+## Installation
+
+### Installation using HACS
+
+Preferable way to install this custom integration is to use [HACS](https://www.hacs.xyz/). Learn how to install HACS [here](https://www.hacs.xyz/docs/use/download/download).
+After you have successfully installed and configured HACS you can simply press this button to add this repository to HACS and proceed to `Telegram client` installation.
+
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=lufton&repository=ha_telegram_client&category=integration)
+
+### Manual installation
+
+If you don't have or don't want to install HACS you can simple donwload [latest release](https://github.com/lufton/ha_telegram_client/releases/latest) `Source code (zip)` file. Unzip it, copy `custom_components/telegram_client` folder inside `custom_components` folder of your Home Assistant instance and restart it.
+
 ## Two client types
 
 This integration allows you to authorize either [as a user](#user-config-flow) or [as a bot](#bot-config-flow). Depending on your needs, you can pick which one is preferable to you. Each type of client has its own benefits and limitations. For example `User` can send messages to any other user (depends on privacy setting), whereas `Bot` can't. But `Bot` can send messages with keyboards, whereas `User` can't.
